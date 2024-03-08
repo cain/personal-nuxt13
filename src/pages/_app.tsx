@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
     >
       <main
         className={cn(
-        "min-h-screen bg-background font-sans antialiased",
+        "bg-background font-sans antialiased",
         fontSans.variable
       )}>
         <Component {...pageProps} />
