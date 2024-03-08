@@ -57,7 +57,7 @@ const fragment = /* glsl */ `
       const mesh = new Mesh(gl, { geometry, program });
 
       requestAnimationFrame(update);
-      function update(t) {
+      function update(t: any) {
           requestAnimationFrame(update);
 
           program.uniforms.uTime.value = t * 0.001;

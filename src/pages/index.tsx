@@ -18,17 +18,17 @@ export default function Home() {
       <Head>
         <title>Cain Hall</title>
       </Head>
-      <main className="flex flex-col justify-center m-16 max-w-screen-md">
+      <main className="flex flex-col justify-center m-16">
         <div className="flex max-md:flex-col text-lg flex-col">
           <div className='flex flex-col justify-center md:mr-8 max-md:mb-8 max-w-lg'>
             <div className='mb-10'>
               <Gradient></Gradient>
             </div>
             <p className="mb-4">
-              Hi,
+              Cain Hall
             </p>
             <div className="mb-4">
-              Im web developer at <HoverCard openDelay={0}>
+              Web developer at <HoverCard openDelay={0}>
                 <HoverCardTrigger asChild>
                   <Link href='https://www.plannthat.com' passHref className='underline underline-offset-4'>Plann</Link>
                 </HoverCardTrigger>
@@ -37,7 +37,8 @@ export default function Home() {
                     <source src="/showcase.webm" ></source>
                   </video>
                 </HoverCardContent>
-              </HoverCard>, <br></br>helping people connect with their audience.
+              </HoverCard>
+              . Creating and tinkering a product that helps people grow their reach.
             </div>
             <p className='mb-8 text-sm opacity-80'>
               Its my passion to bring ideas to life and create meaningful products.
@@ -48,14 +49,14 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <Image
+          {/* <Image
             className="relative rounded-lg ease-in-out transition-opacity duration-300 opacity-100 mt-8"
             src="/me.jpeg"
             alt="Cain Hall"
             width={200}
             height={100}
             priority
-          />
+          /> */}
         </div>
       </main>
     </div>
