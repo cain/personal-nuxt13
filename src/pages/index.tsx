@@ -28,17 +28,7 @@ export default function Home() {
               Cain Hall
             </p>
             <div className="mb-4">
-              Web developer at <HoverCard openDelay={0}>
-                <HoverCardTrigger asChild>
-                  <Link href='https://www.plannthat.com' passHref className='underline underline-offset-4'>Plann</Link>
-                </HoverCardTrigger>
-                <HoverCardContent className='w-[400px]'>
-                  <video autoPlay playsInline loop className='rounded-md '>
-                    <source src="/showcase.webm" ></source>
-                  </video>
-                </HoverCardContent>
-              </HoverCard>
-              . Creating and tinkering a product that helps people grow their reach.
+              Working on web dev at <Link href="linktr.ee">Linktree</Link>.
             </div>
             <p className='mb-8 text-sm opacity-80'>
               Its my passion to bring ideas to life and create meaningful products.
@@ -49,14 +39,14 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          {/* <Image
+          <Image
             className="relative rounded-lg ease-in-out transition-opacity duration-300 opacity-100 mt-8"
             src="/me.jpeg"
             alt="Cain Hall"
             width={200}
             height={100}
             priority
-          /> */}
+          />
         </div>
       </main>
     </div>
