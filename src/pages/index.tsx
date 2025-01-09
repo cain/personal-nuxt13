@@ -21,14 +21,14 @@ export default function Home() {
       <main className="flex flex-col justify-center m-16">
         <div className="flex max-md:flex-col text-lg flex-col">
           <div className='flex flex-col justify-center md:mr-8 max-md:mb-8 max-w-lg'>
-            <div className='mb-10'>
+{/*             <div className='mb-10'>
               <Gradient></Gradient>
-            </div>
+            </div> */}
             <p className="mb-4">
               Cain Hall
             </p>
             <div className="mb-4">
-              Working on web dev at <Link href="linktr.ee">Linktree</Link>.
+              Working on web dev at <Link href="https://linktr.ee">Linktree</Link>.
             </div>
             <p className='mb-8 text-sm opacity-80'>
               Its my passion to bring ideas to life and create meaningful products.
@@ -43,8 +43,8 @@ export default function Home() {
             className="relative rounded-lg ease-in-out transition-opacity duration-300 opacity-100 mt-8"
             src="/me.jpeg"
             alt="Cain Hall"
-            width={200}
-            height={100}
+            width={150}
+            height={50}
             priority
           />
         </div>
